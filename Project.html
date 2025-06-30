@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <link rel="stylesheet" href="Project.css">
+    <title>Document</title>
 </head>
 <body>
-    <p>this is my first website</p>
+    <script src="Project.js"></script>
+    
+    <form>
+        <div class="container">
+        <h2>User Information</h2>
+        <label> First Name</label> <br>
+        <input type="text" placeholder="Type First-Name here.." id="firstName" name="firstName" required><br>
+        <label> Last Name</label> <br>
+        <input type="text" placeholder="Type Last-Name here.." id="lastName" name="lastName" required>
+        <p><input type="radio" name="gender" id="male" required value="male" class="gender">Male <input type="radio" name="gender" id="Femal" required value="Femal" class="gender"> Female</p>
+        <button value="Submit" onclick="getName()">&rarr;</button>
+    </div>
+    </form>
+    
 </body>
 </html>
